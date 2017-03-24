@@ -38,11 +38,11 @@ response.then(function(data){
  	setTimeout(function(){ console.log(i) }, 1000)
  }
  ```
- A. 1 2 3 4 5
- B. 5 5 5 5 5
- C. 5 4 3 2 1
- D. 1 1 1 1 1
- E. Random integers between 1 and 5
+ A. 1 2 3 4 5  
+ B. 5 5 5 5 5  
+ C. 5 4 3 2 1  
+ D. 1 1 1 1 1  
+ E. Random integers between 1 and 5  
 3. Which code is better?
 
 A.
