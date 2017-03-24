@@ -1,6 +1,7 @@
-# Exam
+# Javascript/HTML/jQuery/NodeJS Test
 ## Promise
-1. Which of them **are** right?  
+1. Which of the follow codes are **correct**?  
+
 A. 
 ```javascript
 new Promise((reolve,reject)=>{
@@ -31,15 +32,63 @@ response.then(function(data){
     // deal with data
 })
 ```
+2. Which of the follow results is correct (  )
+```javascript
+ for(var i =1; i <= 5; i ++){
+ 	setTimeout(function(){ console.log(i) }, 1000)
+ }
+ ```
+ A. 1 2 3 4 5
+ B. 5 5 5 5 5
+ C. 5 4 3 2 1
+ D. 1 1 1 1 1
+ E. Random integers between 1 and 5
+3. Which code is better?
 
-##HTML
-1. In this HTML page, how many blanks(□) we have between \`a\` and \`test\`?
+A.
+```javascript
+var lng = 0;
+var oldDataLength = 10;
+$.ajax('/api/productList', {...options}, (data)=>{
+    lng = data.length;
+})
+$('#totle').text(lng + oldDataLength);
+```
+B.
+```javascript
+let lng = 0;
+let oldDataLength = 10;
+$.ajax('/api/productList', {...options}, (data)=>{
+    lng = data.length;
+    $('#totle').text(lng + oldDataLength);
+})
+```
+C.
+```javascript
+const lng = 0;
+const oldDataLength = 10;
+$.ajax('/api/productList', {...options}, (data)=>{
+    lng = data.length;
+    $('#totle').text(lng + oldDataLength);
+})
+```
+D.
+```javascript
+const lng = 0;
+const oldDataLength = 10;
+$.ajax('/api/productList', {...options}, (data)=>{
+    lng = data.length;
+})
+$('#totle').text(lng + oldDataLength);
+```
+## HTML
+1. In the HTML page with the codes below, how many blanks(□) we can see in the browser between \`a\` and \`test\`?
 ```HTML
 <div>
 Hi, this is a□□&nbsp;□test.
 </div>
 ```
-2. We have codes in the page with the URL: http://test.com/frontend/2017,
+2. The codes below is in the page with the URL "http://test.com/frontend/2017"  
 ```HTML
 <a href="ex1">ex1</a>
 <a href="/ex2">ex2</a>
@@ -48,7 +97,40 @@ Hi, this is a□□&nbsp;□test.
 After clicking ex1, it will open the link ______________________  
 After clicking ex2, it will open the link ______________________  
 After clicking ex3, it will open the link ______________________  
-3. 
 
-#NodeJS
+## NodeJS
+1. How to print the current path ?
 
+## jQuery
+1. How can we get the element by using jQuery?
+ ```HTML
+ <div class="orders">
+    <ul>
+        <li>order 1</li>
+        <li>order 2</li>
+        <li>order 3</li>
+    </ul>
+</div>
+ <div class="products">
+    <ul>
+        <li>
+            <span>product 1</span>  <!-- how to get this span? -->
+        </li>
+        <li>
+            <span>product 2</span>
+        </li>
+    </ul>
+    <hr />
+    <ul>
+        <li>
+            <span>product 3</span>
+        </li>
+        <li>
+            <span>product 4</span>
+        </li>
+    </ul>
+</div>
+ ```
+2. And how to add the style {width: 435px} to the span we got by using jQuery?
+
+3. How can we get the parent element `li` of the span we got by using jQuery? Not just in one way.
