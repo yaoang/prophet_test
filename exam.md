@@ -102,9 +102,9 @@ After clicking ex3, it will open the link: ______________________
 ```HTML
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
-A. Set the initial zoom level when the page is first loaded
-B. Fix the zoom level when the page is first loaded
-C. Fix the zoom level when the page is refreshed
+A. Set the initial zoom level when the page is first loaded  
+B. Fix the zoom level when the page is first loaded  
+C. Fix the zoom level when the page is refreshed  
 D. Set the resolution at 960*480
 
 ## NodeJS
