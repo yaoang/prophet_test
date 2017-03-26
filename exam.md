@@ -1,6 +1,6 @@
 # Javascript/HTML/jQuery/NodeJS Test
 ## Promise
-1. Which of the follow codes are **correct**?  
+1. Which of the follow codes are **correct**?
 
 A. 
 ```javascript
@@ -43,7 +43,7 @@ response.then(function(data){
  C. 5 4 3 2 1  
  D. 1 1 1 1 1  
  E. Random integers between 1 and 5  
-3. Which code is better?
+3. Which is better?
 
 A.
 ```javascript
@@ -94,16 +94,28 @@ Hi, this is a□□&nbsp;□test.
 <a href="/ex2">ex2</a>
 <a href="./ex3">ex3</a>
 ```
-After clicking ex1, it will open the link ______________________  
-After clicking ex2, it will open the link ______________________  
-After clicking ex3, it will open the link ______________________  
+After clicking ex1, it will open the link: ______________________
+After clicking ex2, it will open the link: ______________________
+After clicking ex3, it will open the link: ______________________
+
+3. Which is correct ?
+```HTML
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+A. Set the initial zoom level when the page is first loaded
+B. Fix the zoom level when the page is first loaded
+C. Fix the zoom level when the page is refreshed
+D. Set the resolution at 960*480
 
 ## NodeJS
 1. How to print the current path ?
 
+2. How to install Express with npm and add dependencies to package.json ?
+
+3. How to import the  \`webpack\` library ?
+
 ## jQuery
-1. How can we get the element by using jQuery?
- ```HTML
+```HTML
  <div class="orders">
     <ul>
         <li>order 1</li>
@@ -131,6 +143,10 @@ After clicking ex3, it will open the link ______________________
     </ul>
 </div>
  ```
-2. And how to add the style {width: 435px} to the span we got by using jQuery?
+1. How to get the element with jQuery?
 
-3. How can we get the parent element `li` of the span we got by using jQuery? Not just in one way.
+2. How to get the closest div of the specified span ?
+
+3. How to select odd \`li\` elements ? How to select last \`li\` element ?
+
+5. How to search a specified value within an array with jQuery?
