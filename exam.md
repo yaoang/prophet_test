@@ -1,5 +1,5 @@
 # Javascript/HTML/jQuery/NodeJS Test
-## Promise
+## Sync
 1. Which of the follow codes are **correct**?
 
 A. 
