@@ -1,6 +1,6 @@
 # Javascript/HTML/jQuery/NodeJS Test
 ## Sync
-1. Which of the follow codes are **correct**?
+1. Which of the follow codes are **correct**? ** ( B, D )**
 
 A. 
 ```javascript
@@ -32,7 +32,7 @@ response.then(function(data){
     // deal with data
 })
 ```
-2. Which of the follow results is correct (  )
+2. Which of the follow results is correct ? **( B )**
 ```javascript
  for(var i =1; i <= 5; i ++){
  	setTimeout(function(){ console.log(i) }, 1000)
@@ -43,12 +43,12 @@ response.then(function(data){
  C. 4 3 2 1 0 
  D. 0 0 0 0 0    
  E. Random integers between 1 and 5  
-3. Which is better?
+3. Which is better? **( B )**
 
 A.
 ```javascript
 var lng = 0;
-var oldDataLength = 10;
+const oldDataLength = 10;
 $.ajax('/api/productList', {...options}, (data)=>{
     lng = data.length;
 })
@@ -57,7 +57,7 @@ $('#totle').text(lng + oldDataLength);
 B.
 ```javascript
 let lng = 0;
-let oldDataLength = 10;
+const oldDataLength = 10;
 $.ajax('/api/productList', {...options}, (data)=>{
     lng = data.length;
     $('#totle').text(lng + oldDataLength);
@@ -82,7 +82,7 @@ $.ajax('/api/productList', {...options}, (data)=>{
 $('#totle').text(lng + oldDataLength);
 ```
 ## HTML
-1. In the HTML page with the codes below, how many blanks(□) we can see in the browser between \`a\` and \`test\`?
+1. In the HTML page with the codes below, how many blanks(□) we can see in the browser between \`a\` and \`test\`?  **( 3 )**
 ```HTML
 <div>
 Hi, this is a□□&nbsp;□test.
@@ -94,11 +94,22 @@ Hi, this is a□□&nbsp;□test.
 <a href="/ex2">ex2</a>
 <a href="./ex3">ex3</a>
 ```
-After clicking ex1, it will open the link: ______________________
-After clicking ex2, it will open the link: ______________________
-After clicking ex3, it will open the link: ______________________
-
-3. Which is correct ?
+After clicking ex1, it will open the link: ______________________  
+After clicking ex2, it will open the link: ______________________  
+After clicking ex3, it will open the link: ______________________  
+A. http://test.com/frontend/2017/ext1  
+   http://test.com/frontend/2017/ext2  
+   http://test.com/frontend/2017/ext3  
+B. http://test.com/ext1  
+   http://test.com/ext2  
+   http://test.com/frontend/2017/ext3  
+C. http://test.com/frontend/2017/ext1  
+   http://test.com/ext2  
+   http://test.com/frontend/2017/ext3  
+D. http://test.com/ext1  
+   http://test.com/frontend/2017/ext2  
+   http://test.com/frontend/2017/ext3  
+3. Which is correct ? **( A )**
 ```HTML
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
@@ -108,11 +119,18 @@ C. Fix the zoom level when the page is refreshed
 D. Set the resolution at 960*480
 
 ## NodeJS
-1. How to print the current path ?
+1. How to print the current path ? 
 
-2. How to install Express with npm and add dependencies to package.json ?
-
-3. How to import the  \`webpack\` library ?
+2. How to install Express with npm and add dependencies to package.json ? **( A )**
+A. npm install --save-dev express
+B. npm install express
+C. yum install express
+D. webpack -p express
+3. How to import the \`webpack\` library to use ? **( C )**
+A. const webpack = npm.webpack
+B. const webpack = import from 'webpack'
+C. const webpack = require('webpack')
+D. include webpack from 'webpack'
 
 ## jQuery
 ```HTML
@@ -143,10 +161,20 @@ D. Set the resolution at 960*480
     </ul>
 </div>
  ```
-1. How to get the element with jQuery?
-
-2. How to get the closest div of the specified span ?
-
+1. Which of them can get the element? **( A, C )**
+A. $('.products > ul > li:first').find('span')  
+B. $('.products > span:first')  
+C. $('.products span:first')  
+D. $('span').text('product 1').first()  
+2. How to get the closest div of the specified span ? **( D )**
+A. $(...specified span...).find('div')  
+A. $(...specified span...).parent('div')  
+A. $(...specified span...).closest('div:first')  
+A. $(...specified span...).closest('div')  
 3. How to select odd \`li\` elements ? How to select last \`li\` element ?
 
-5. How to search a specified value within an array with jQuery?
+5. How to search a specified value within an array with jQuery? ** ( C )**
+A. $.sub(9, [2,83,99,9,27,283])  
+B. $.indexOf(9, [2,83,99,9,27,283])  
+C. $.inArray(9, [2,83,99,9,27,283])  
+D. $.find(9, [2,83,99,9,27,283])  
