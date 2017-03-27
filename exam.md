@@ -88,7 +88,7 @@ $('#totle').text(lng + oldDataLength);
 Hi, this is a□□&nbsp;□test.
 </div>
 ```
-2. The codes below is in the page with the URL "http://test.com/frontend/2017"  
+2. The codes below is in the page with the URL "http://test.com/frontend/2017" **( C )**    
 ```HTML
 <a href="ex1">ex1</a>
 <a href="/ex2">ex2</a>
