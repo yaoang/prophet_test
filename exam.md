@@ -1,6 +1,6 @@
 # Javascript/HTML/jQuery/NodeJS Test
 ## Sync
-1. Which of the follow codes are **correct**? ** ( B, D )**  
+1. Which of the follow codes are **correct**?  **( B, D )**  
 
 A. 
 ```javascript
@@ -178,7 +178,7 @@ A. $('.products li:odd')
 B. $('.products ul:odd').find('li')  
 C. $('.products li').filter('odd')  
 D. $('.products li').find('odd')  
-5. How to search a specified value within an array with jQuery? ** ( C )**  
+4. How to search a specified value within an array with jQuery?  **( C )**  
 A. $.sub(9, [2,83,99,9,27,283])  
 B. $.indexOf(9, [2,83,99,9,27,283])  
 C. $.inArray(9, [2,83,99,9,27,283])  
