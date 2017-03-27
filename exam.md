@@ -117,7 +117,6 @@ A. Set the initial zoom level when the page is first loaded
 B. Fix the zoom level when the page is first loaded  
 C. Fix the zoom level when the page is refreshed  
 D. Set the resolution at 960*480
-
 ## NodeJS
 1. Which one of them can print the current path ?  **( C )**  
 A. console.log(path.name)  
@@ -126,16 +125,15 @@ C. console.log(process.cwd())
 D. console.log('./')  
 
 2. How to install Express with npm and add dependencies to package.json ? **( A )**  
-A. npm install --save-dev express
-B. npm install express
-C. yum install express
-D. webpack -p express
+A. npm install --save-dev express  
+B. npm install express  
+C. yum install express  
+D. webpack -p express  
 3. How to import the \`webpack\` library to use ? **( C )**  
-A. const webpack = npm.webpack
-B. const webpack = import from 'webpack'
-C. const webpack = require('webpack')
-D. include webpack from 'webpack'
-
+A. const webpack = npm.webpack  
+B. const webpack = import from 'webpack'  
+C. const webpack = require('webpack')  
+D. include webpack from 'webpack'  
 ## jQuery
 ```HTML
  <div class="orders">
